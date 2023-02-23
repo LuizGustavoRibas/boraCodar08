@@ -1,0 +1,76 @@
+.card1, .card2, .card3 {
+  background-color: #363447;
+  height: 379px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  gap: 32px;
+}
+
+.card1 {
+  width: 296px;
+}
+
+.card2 {
+  width: 351px;
+}
+
+.card3 {
+  width: 409px;
+}
+
+.baseboard1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.baseboard2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.expected {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  gap: 4px;
+}
+
+.reached {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}

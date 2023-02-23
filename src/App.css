@@ -1,0 +1,22 @@
+body {
+  background-color: #292738;
+  max-width: 1366px;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  height: 379px;
+  margin-top: 112px;
+}
+
+.bannerInfo {
+  display: flex;
+  justify-content: center;
+}
+
+
