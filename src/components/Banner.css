@@ -59,7 +59,6 @@
 }
 
 hr {
-  width: 100%;
   border: 0;
   border-top: 3px solid #4A4556;
   border-radius: 999px;
@@ -80,4 +79,42 @@ h4 {
   font-weight: medium;
   font-size: 24px;
   margin: 0;
+}
+
+@media (max-width: 1150px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+  }
+
+  .saleDays h1 {
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .banner {
+    height: 600px;
+    width: 500px;
+    margin-top: 400px;
+    margin: auto;
+    margin-top: 400px;
+    margin-bottom: 50px;
+  }
+
+  .graphInfo {
+    gap: 30px;
+  }
+
+  hr {
+   width: 360px;
+   margin-right: 500px;
+   margin-top: 250px;
+  }
+
+  .textInfo {
+    align-items: center;
+  }
 }

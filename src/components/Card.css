@@ -74,3 +74,13 @@ h1 {
   font-size: 24px;
   margin: 0;
 }
+
+@media (max-width: 1150px) {
+  .card1 h2, .card2 h1, .card3 h1 {
+    padding-top: 20px;
+  }
+
+  .baseboard1, .baseboard2 {
+    padding-bottom: 20px;
+  }
+}
